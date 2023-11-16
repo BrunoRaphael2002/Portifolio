@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Dancing+Script:wght@500&family=Great+Vibes&family=Poppins:ital,wght@0,500;1,200;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header e Navbar inicio*/
+.sticky{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+header{
+    width: 100%;
+    background-color: aliceblue;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+header nav ul {
+    display: flex;
+   align-items: center;
+   list-style: none;
+    gap: 40px;
+    text-transform: uppercase;
+}
+
+header nav ul li{
+    padding: 5px;
+    color: black;
+}
+
+header nav ul li:hover{
+    background: #F1C40F;
+    
+}
+
+
+
+
+
+
+/*Header e Navbar fim*/
+
+
+
+/*Sessão Banner inicio*/
+
+.banner{
+    display: flex;
+    align-items: center;
+    
+}
+
+.banner img{
+    width: 50%;
+    background-color: aqua;
+    object-fit: cover;
+}
+
+.conteudo-banner{
+  
+        width: 50%;
+        padding: 100px 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    
+.conteudo-banner{
+            text-align: center;
+            margin: 0 auto;
+            line-height: 30px;
+    
+    }
+    .conteudo-banner h1 ,span, p{
+        padding: 10px;
+    }
+    
+    .conteudo-banner p{
+        width: 70%;
+        text-align: justify;
+        margin: 0 auto;
+    }
+
+
+/*Sessão Banner fim*/
+
+/*main inicio*/
+
+/*main fim*/
+
+
+/*footer inicio*/
+
+.flex-box-container {
+    min-height: 100vh; /* Garante que o contêiner flex cubra pelo menos a altura da janela do navegador */
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    align-self: flex-end; /* Alinha o footer na parte inferior do contêiner flex */
+}
+
+.direitos-autorais{
+    text-align: center;
+
+}
+
+.direitos-autorais p{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*footer fim*/
