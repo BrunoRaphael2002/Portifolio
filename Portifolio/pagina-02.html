@@ -8,31 +8,46 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="flex-box-container">
+   
         <div class="sticky">
             <header>
-                <nav class="limitar-sessao"">
+                <nav class="limitar-sessao">
                     <div class="logo">
                         <img src="icones/programacao.png" alt="sinais-de-codigo">
                         <h1> Front<span>Line</span></h1>
                     </div>
                     <ul>
-                        <a href="#"><img src="icones/home.png" alt="Home"><li>Home</li></a>
+                        <a href="#"><li>Home</li></a>
 
 
-                        <a href="#"><img src="icones/habilidades.png" alt="habilidades"><li>skills</li></a>
+                        <a href="#"><li>skills</li></a>
 
-                        <a href="index.html"><img src="icones/projeto.png" alt="projects"><li>projects</li></a>
+                        <a href="index.html"><li>projects</li></a>
                         
                     </ul>
                 </nav>
             </header>
+        </div>
 
             <section class="sobre">
 
                 <div class="limitar-sessao texto-sobre">
                     <h1>Bruno Raphael,</h1>
+                    <h2>Desenvolvedor Front-end</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus magni officia sit eaque totam, ducimus ea asperiores ad, earum, illo nisi architecto possimus accusamus quia? Excepturi in recusandae blanditiis hic.</p>
+
+                        <div class="redes">
+
+                            <img src="icons/linkedin.png" alt="linkedin">
+                            <img src="icons/gitnhub.png" alt="github">
+                            <img src="icons/youtube.png" alt="youtube">
+                        </div>
+
+
+                    <div class="boxBtn">
+                        <a class="btn1" href="#">Downloads CV</a>
+                        <a class="btn2" href="#">Meus Projetos</a>
+                    </div>
                 </div>
 
                 <div class="imagem ">
@@ -47,38 +62,77 @@
             </section>
 
             
-            <section class="skills">
-
-                <div id="Html" class="limitar-sessao">
-                    <img src="" alt="Html">
-                    <h4>x</h4>
-                </div>
-
-                <div  id="Css" class="limitar-sessao">
-                    <img src="" alt="Css">
-                    <h4>x</h4>
-                </div>
-
-                <div  id="JavaScript" class="limitar-sessao">
-                    <img src="" alt="JavaScript">
-                    <h4>x</h4>
-                </div>
-
-                <div  id="React" class="limitar-sessao">
-                    <img src="" alt="React">
-                    <h4>x</h4>
-                </div>
-
-                <div id="Figma" class="limitar-sessao">
-                    <img src="" alt="Figma">
-                    <h4>x</h4>
-                </div>
+            <section class="sessao-titulo">
+                <h1>Tecnologias</h1>
+                <section class="skills limitar-sessao">
+                
+                    <div id="Html" class="  tecnologias">
+                        <img src="logo/html.png" alt="Html">
+                        <h4>html</h4>
+                    </div>
+                    <div  id="Css" class=" tecnologias">
+                        <img src="logo/css.png" alt="Css">
+                        <h4>css</h4>
+                    </div>
+                    <div  id="JavaScript" class=" tecnologias">
+                        <img src="logo/js.png" alt="JavaScript">
+                        <h4>JavaScript</h4>
+                    </div>
+                    <div  id="React" class=" tecnologias">
+                        <img src="logo/react.png" alt="React">
+                        <h4>React</h4>
+                    </div>
+                    <div id="Ionic" class=" tecnologias">
+                        <img src="logo/ionic.png" alt="ionic">
+                        <h4>Ionic</h4>
+                    </div>
+                    <div id="wordpress" class=" tecnologias">
+                        <img src="logo/wordpress.png" alt="wordpress">
+                        <h4>Ionic</h4>
+                    </div>
+                    <div id="Figma" class=" tecnologias">
+                        <img src="logo/figma.png" alt="Figma">
+                        <h4>Figma</h4>
+                    </div>
+                
+                </section>
             </section>
 
 
-        </div>
+            <section class="Meus-projetos">
+
+                <h1>Projetos</h1>
+
+                <div class="box-projetos">
+
+                    <img src="" alt="x">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid facere hic facilis eius assumenda voluptatum id nemo, dolore harum possimus neque quaerat! Tenetur accusamus architecto soluta laborum, veritatis unde mollitia.</p>
+
+                    <div>
+                        <a href="#"><button>Visite o Site</button></a>
+                        <a href="#"><button>repositorio</button></a>
+                    </div>
+                </div>
+            </section>
+
+            <footer>
+                <p>Todos os direitos reservados</p>
+            </footer>
+
+
+
+
+       
 
         
-     
+     <script>
+        document.addEventListener('DOMContentLoaded', function () {
+    const imageContainer = document.querySelector('.tecnologias');
+
+    imageContainer.addEventListener('click', function () {
+        this.classList.toggle('ativo');
+    });
+});
+     </script>
 </body>
 </html>

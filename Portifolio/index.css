@@ -31,6 +31,7 @@ body{
     position: sticky;
     top: 0;
     z-index: 1;
+    width: 100%;
 }
 
 .limitar-sessao{
@@ -45,8 +46,14 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-  
-    border-bottom:1px solid black;
+
+/* From https://css.glass */
+background: rgba(255, 255, 255, 0.57);
+border-radius: 16px;
+box-shadow: 0 4px 35px rgba(255, 255, 255, 0.1);
+backdrop-filter: blur(4.1px);
+-webkit-backdrop-filter: blur(4.1px);
+border: 1px solid rgba(255, 255, 255, 0.31);
 
 
        
@@ -100,19 +107,17 @@ a{
 header nav ul li{
     color: rgb(0, 0, 0);
     cursor: pointer;
+    transition: transform 0.3s ease-in-out;
     
 }
 
 header nav ul li:hover{
    border-bottom: 1px solid var(--amarelo);
+   transform: scale(1.2);
     
 }
 
-header nav ul img{
-    width: 25px;
-   object-fit: contain;
-   
-}
+
 
 
 
@@ -134,6 +139,8 @@ header nav ul img{
     
 }
 
+
+
 .texto-sobre{
     width: 50%;
     display: flex;
@@ -152,8 +159,76 @@ header nav ul img{
 .sobre .texto-sobre h1{
     font-size: 3em;
    text-align: left;
+   text-transform: uppercase;
    
 }
+
+.texto-sobre h2{
+    color: var(--amarelo);
+}
+
+.redes{
+    display: flex;
+    align-items: center;
+    padding: 20px ;
+    gap: 30px;
+}
+
+.redes img{
+    border: 2px solid #000000;
+    border-radius: 50%;
+    padding: 1px;
+    width: 40px;
+    cursor: pointer;
+
+   
+ 
+    transition: transform 0.3s ease-in-out;
+}
+
+.redes img:hover {
+    transform: scale(1.2);
+}
+
+
+
+.boxBtn{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+ .btn1{
+    color: white;
+    background-color: var(--amarelo);
+    width: fit-content;
+    padding: 10px 15px;
+    border-radius: 25px;
+    box-shadow: 1px 1px 15px var(--amarelo);
+}
+
+ .btn1:hover{
+    box-shadow: none;
+}
+
+ .btn2{
+  border: 3px solid var(--amarelo);
+  color: var(--amarelo);
+  width: fit-content;
+  padding: 10px 15px;
+  border-radius: 25px;
+    
+}
+
+.btn2:hover{
+    background-color: var(--amarelo);
+    color: white;
+}
+
+
 
 .sobre .texto-sobre p {
     font-weight: 200;
@@ -178,7 +253,8 @@ header nav ul img{
     width: 300px;
     height: 300px;
     object-fit: cover;
-    border-radius:50% ;
+    border-radius:25px ;
+    box-shadow: 10px 5px 1px 5px rgb(98, 26, 26);
     cursor: pointer;
  
     
@@ -188,9 +264,11 @@ header nav ul img{
   
 
 .imagem img:hover{
-    box-shadow: 1px 1px 37px 7px  rgb(96, 54, 51);
+    box-shadow: 10px 5px 1px 5px rgb(84, 84, 84);
 }
+/*Sessão sobre fim*/
 
+/*Icone inicio*/
 .setabaixo{
     text-align: center;
     display: flex;
@@ -276,19 +354,69 @@ header nav ul img{
     }
   }
 
+  /*Icone fim*/
+
+   /*Tecnologias inicio*/
+
+  .sessao-titulo{
+    padding: 100px 20px;
+    margin: 0 auto;
+  }
+
+  .sessao-titulo h1{
+    color: var(--amarelo);
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
   .skills{
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100%;
+    flex-wrap: wrap;
     margin: 0 auto;
-    width: 100%;
+    text-align: center;
+    padding: 100px 20px;
+    gap: 40px;
+   
   }
+
+
+
+  .tecnologias{
+    display: inline-block;
+    margin: 0 auto;
+    cursor: pointer;
+    
   
+    
+  }
 
   
+  .tecnologias img{
+    width: 70px;
+    transition: transform 0.3s ease-in-out;
   
 
-/*Sessão sobre fim*/
+  }
+
+  .tecnologias img:hover{
+    transform: scale(1.2);
+    
+  }
+
+
+  
+
+
+  
+    /*Tecnologias fim*/
+
+
+
+
 
 /*main inicio*/
 
