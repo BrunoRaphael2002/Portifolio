@@ -47,3 +47,19 @@
         border-radius: 5px;
 }
 
+@media (max-width: 480px){
+    .texto-error {
+       width: 90%;
+       text-align: center;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: column;
+       
+    }
+
+    .texto-error h1{
+        font-size: 80px;
+        
+    }
+}
