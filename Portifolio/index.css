@@ -635,11 +635,15 @@ footer{
 
         .sobre {
             height: 100vh;
+            
         }
 
         .setabaixo{
-            height: 10vh;
+            
+            height: 50vh;
         }
+
+       
 
     .texto-sobre{
         margin: 0 auto;
@@ -707,12 +711,14 @@ footer{
     font-size: 25px;  
   }
 
+ 
+
 
 }
 
 @media (max-width: 480px){
   
- 
+   
 
    .sobre .texto-sobre h1{
        text-align: center;
@@ -726,6 +732,7 @@ footer{
     .boxBtn{
        flex-direction: column;
        width: 100%;
+       height: auto;
       
        
     }
@@ -735,6 +742,8 @@ footer{
         text-align: center;
         width: 100%;
         flex-direction: column;
+        
+          
     }
 
    
