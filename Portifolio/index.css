@@ -637,6 +637,10 @@ footer{
             height: 100vh;
         }
 
+        .setabaixo{
+            height: 10vh;
+        }
+
     .texto-sobre{
         margin: 0 auto;
         display: flex;
