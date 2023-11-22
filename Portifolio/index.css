@@ -167,7 +167,6 @@ header nav ul li:hover:before {
     display: flex;
     flex-direction: column;
     
-   
     gap: 20px;
     margin: 5px;
     border-radius: 25px;
@@ -232,7 +231,7 @@ header nav ul li:hover:before {
  .btn1{
     color: white;
     background-color: var(--amarelo);
-    width: fit-content;
+    width: max-content;
     padding: 10px 15px;
     border-radius: 25px;
     box-shadow: 1px 1px 15px var(--amarelo);
@@ -593,6 +592,7 @@ footer{
     header{
         background-color: whitesmoke;
         border: 1px solid rgba(55, 55, 55, 0.277);
+        width: 100%;
     }
 
         header nav{
@@ -659,14 +659,9 @@ footer{
 
    
   .boxlinkBtn{
-    
-    
-  
     width: 100%;
    padding: 50px;
    gap: 50px;
-   
-   
   }
 
   .btnDeploy button , .btnRepositorio button{
@@ -677,10 +672,35 @@ footer{
   }
 
 
+}
+
+@media (max-width: 446px){
+    .texto-sobre {
+    
+     
+    }
+    .boxBtn{
+       flex-direction: column;
+       width: 100%;
+      
+       
+    }
+    
+    .boxBtn .btn1, .btn2{
+        font-size: 16px;
+        text-align: center;
+        width: 100%;
+        flex-direction: column;
+    }
 
    
-    
-   
+
+
+    .boxlinkBtn{
+       flex-direction: column;
+      }
+
+  
 }
 
 /*footer fim*/
