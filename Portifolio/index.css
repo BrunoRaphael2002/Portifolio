@@ -48,6 +48,7 @@ body{
 header{
     width: 100%;
     padding: 10px;
+    margin-bottom: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -192,7 +193,7 @@ span{
     font-weight: 200;
    font-size: 1.2em;
    line-height: 1.5;
-   text-align: left;
+   
    
    
     
@@ -434,6 +435,7 @@ span{
   .tecnologias{
     margin: 0 auto;
     cursor: pointer;
+   
 
   }
 
@@ -441,7 +443,7 @@ span{
   .tecnologias img{
    
    
-    
+   
     width: 70px;
     transition: transform 0.3s ease-in-out;
   
@@ -462,7 +464,6 @@ span{
    text-align: left;
    display: flex;
    align-items: center;
-   justify-content: flex-start;
    flex-wrap: wrap;
    padding: 20px;
    gap: 30px;
@@ -475,7 +476,7 @@ span{
 .box-projetos{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: column;
     gap:10px;
     padding: 10px 20px;
@@ -485,7 +486,9 @@ span{
     max-width: 424px;
     background-color: var(--body);
     box-shadow: 1px 15px 15px rgba(0, 0, 0, 0.216);
-    transition: transform 0.3s ease-in-out;  
+    transition: transform 0.3s ease-in-out; 
+    height: 500px;
+    
    
 }
 
@@ -517,10 +520,7 @@ span{
     width: 30px;
 }
 
-.box-projetos p{
-    padding: 20px;
-    font-size: 18px;
-}
+
 
 .boxlinkBtn{
     display: flex;
@@ -675,6 +675,7 @@ footer{
 
     .box-projetos{
       max-width: 650px;
+      height: auto;
        
     }
 
@@ -687,11 +688,12 @@ footer{
     width: 100%;
    padding: 50px;
    gap: 50px;
+   align-items: center;
   }
 
   .btnDeploy button , .btnRepositorio button{
     height: auto;
-    width: max-content;
+    width: auto;
     padding: 10px 40px;
     font-size: 25px;  
   }
@@ -702,10 +704,6 @@ footer{
 @media (max-width: 480px){
   
 
-    .texto-sobre {
-        text-align: left;
-       
-    }
 
    .sobre .texto-sobre h1{
        text-align: center;
