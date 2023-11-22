@@ -316,10 +316,12 @@ span{
 
 /*Icone inicio*/
 .setabaixo{
-    text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 100px 20px ;
+    margin: 0 auto;
+   
    
 }
 
@@ -764,7 +766,7 @@ footer{
 @media (max-width: 348px){
     .sobre .texto-sobre h1{
         text-align: center;
-       font-size: 2em;
+       font-size: 1.8em;
        width: 100%;
  
      }
