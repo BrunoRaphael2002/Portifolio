@@ -724,7 +724,7 @@ footer{
 
    .sobre .texto-sobre h1{
        text-align: center;
-      font-size: 2.6em;
+      font-size: 2.2em;
       width: 100%;
 
     }
@@ -763,13 +763,6 @@ footer{
   
 }
 
-@media (max-width: 348px){
-    .sobre .texto-sobre h1{
-        text-align: center;
-       font-size: 1.8em;
-       width: 100%;
- 
-     }
-}
+
 
 /*footer fim*/
