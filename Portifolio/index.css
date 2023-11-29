@@ -458,19 +458,26 @@ span{
   }
 
   /*tecnologias fim*/
+  .texto-link{
+    display: inline;
+    color: #0267C1;
+    font-weight: 600;
+}
 
   /*Cards Inicio*/
 
 .Meus-projetos {
     
-   text-align: left;
+   
    display: flex;
    align-items: center;
+   justify-content: center;
    flex-wrap: wrap;
    padding: 20px;
    gap: 30px;
     
-  
+   
+   
    
   
 }
@@ -480,18 +487,24 @@ span{
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
-    gap:10px;
+    gap:30px;
     padding: 10px 20px;
     margin: 10px ;
     text-align: left;
     width: 100%;
-    max-width: 424px;
+    max-width: 600px;
     background-color: var(--body);
     box-shadow: 1px 15px 15px rgba(0, 0, 0, 0.216);
     transition: transform 0.3s ease-in-out; 
-    height: 500px;
+    height: 100%;
+    
+  
     
    
+}
+
+.box-projetos p{
+    padding: 20px;
 }
 
 .box-projetos:hover{
@@ -502,7 +515,7 @@ span{
 .box-projetos .imagem-projeto{
   object-fit: cover;
     width: 100%;
-    height: 200px;
+   
    
 }
 
@@ -511,7 +524,7 @@ span{
     list-style: none;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content:center;
     gap: 10px;
     margin: 0 auto;
     width: 100%;
@@ -519,7 +532,7 @@ span{
 }
 
 .box-projetos ul li img{
-    width: 30px;
+    width: 35px;
 }
 
 
@@ -529,9 +542,9 @@ span{
     align-items: center;
     justify-content: center;
     text-align: center;
-    gap: 20px;
+    gap: 50px;
     width: 100%;
-    padding: 10px;
+    padding: 30px;
     
 }
 
