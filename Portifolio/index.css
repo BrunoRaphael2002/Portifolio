@@ -486,7 +486,7 @@ span{
 
 .box-projetos{
     display: flex;
-    align-items: center;
+    align-items: stretch;
     justify-content: space-between;
     flex-direction: column;
     gap:30px;
@@ -498,7 +498,7 @@ span{
     background-color: var(--body);
     box-shadow: 1px 15px 15px rgba(0, 0, 0, 0.216);
     transition: transform 0.3s ease-in-out; 
-    height: 100%;
+    
     
   
     
