@@ -473,10 +473,14 @@ span{
    
    display: flex;
    align-items: center;
-   justify-content: center;
+   justify-content: flex-start;
    flex-wrap: wrap;
    padding: 20px;
    gap: 30px;
+   margin: 30px;
+  
+   
+   
     
    
    
@@ -487,22 +491,37 @@ span{
 .box-projetos{
     display: flex;
     align-items: stretch;
-    justify-content: space-between;
-    flex-direction: column;
+    justify-content: flex-start;
+    flex-direction: row;
     gap:30px;
-    padding: 10px 20px;
+    padding: 30px ;
     margin: 10px ;
-    text-align: left;
+    text-align: center;
     width: 100%;
-    max-width: 600px;
     background-color: var(--body);
     box-shadow: 1px 15px 15px rgba(0, 0, 0, 0.216);
+    border-radius: 15px;
+    border: 1px solid #cfcfc8;
     transition: transform 0.3s ease-in-out; 
     
     
   
     
    
+}
+
+.box-projetos h3{
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+
+.box-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
 }
 
 .box-projetos p{
@@ -514,9 +533,12 @@ span{
     transform: scale(1.03);
 }
 
-.box-projetos .imagem-projeto{
-  object-fit: cover;
-    width: 100%;
+.box-projetos  .imagem-projeto{
+  object-fit: contain;
+    width: 50%;
+    height: 100%;
+  
+   
    
    
 }
@@ -593,6 +615,7 @@ span{
     display: flex;
     align-items: center;
     justify-content: center;
+    
     width: 100%;
     text-transform: uppercase;
     padding: 40px;
@@ -706,19 +729,25 @@ footer{
     .box-projetos{
       max-width: 650px;
       height: auto;
+      flex-direction: column;
        
     }
 
     .box-projetos .imagem-projeto{
         height: 100%;
+        width: 100%;
     }
 
+    .box-text{
+        width: 100%;
+    }
    
   .boxlinkBtn{
     width: 100%;
    padding: 50px;
    gap: 50px;
    align-items: center;
+   flex-direction: column;
   }
 
   .btnDeploy button , .btnRepositorio button{
