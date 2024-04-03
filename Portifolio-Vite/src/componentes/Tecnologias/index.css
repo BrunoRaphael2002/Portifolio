@@ -1,0 +1,50 @@
+.sessao-titulo{
+    padding: 100px 20px;
+    margin: 0 auto;
+  }
+
+  .sessao-titulo h1{
+    color: var(--amarelo);
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .skills{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    text-align: center;
+    padding: 100px 20px;
+    gap: 40px;
+    text-transform: uppercase;
+   
+  }
+
+
+
+  .tecnologias{
+   
+    cursor: pointer;
+   
+
+  }
+
+  
+  .tecnologias img{
+   
+   
+   
+    width: 70px;
+    transition: transform 0.3s ease-in-out;
+  
+
+  }
+
+  .tecnologias img:hover{
+    transform: scale(1.2);
+    
+  }

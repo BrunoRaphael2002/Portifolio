@@ -1,0 +1,72 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    
+    
+}
+
+.logo{
+    height: 100%;
+    display: flex;
+    gap: 5px;
+}
+
+nav span{
+    color:#FF9505;
+}
+
+nav img{
+   width: 30px;
+   
+}
+
+nav ul {
+    display: flex;
+   align-items: center;
+   list-style: none;
+   height: 100%;
+   gap: 30px;
+    text-transform: uppercase;
+}
+
+a{
+    display: flex;
+    gap: 5px;
+    text-decoration: none;
+}
+
+
+ nav ul li{
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+    transition: background-color 0.3s, color 0.3s;
+    
+}
+
+ nav ul  li:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #FF9505;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+
+ nav ul li:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    
+}

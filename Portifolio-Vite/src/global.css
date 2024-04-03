@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Dancing+Script:wght@500&family=Great+Vibes&family=Poppins:ital,wght@0,500;1,200;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+  }
+
+:root{
+
+    --body:#FAF9F6;
+    --amarelo:#FF9505;
+    --preto:#000000;
+    --ciano:#48E5C2;
+    --azul:#0267C1;
+
+
+}
+
+body{
+   
+    background-color: var(--body);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;  
+    font-family: 'Poppins', sans-serif;
+    
+    
+}
+
+.limitar-sessao{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.texto-link{
+    display: inline;
+    color: #0267C1;
+    font-weight: 600;
+}

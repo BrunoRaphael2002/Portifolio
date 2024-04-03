@@ -30,6 +30,7 @@ body{
     flex-direction: column;  
     font-family: 'Poppins', sans-serif;
     
+    
 }
 
 /* Header e Navbar inicio*/
@@ -54,14 +55,7 @@ header{
     align-items: center;
     justify-content: space-between;
 
-/* From https://css.glass 
-background: rgba(255, 255, 255, 0.57);
-box-shadow: 0 4px 35px rgba(255, 255, 255, 0.1);
-backdrop-filter: blur(4.1px);
--webkit-backdrop-filter: blur(4.1px);
-border: 1px solid rgba(255, 255, 255, 0.31);
 
-*/
 
 background-color: #F4F4ED;
        
@@ -434,7 +428,7 @@ span{
   .skills{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     height: 100%;
     flex-wrap: wrap;
     margin: 0 auto;
@@ -448,7 +442,7 @@ span{
 
 
   .tecnologias{
-    margin: 0 auto;
+   
     cursor: pointer;
    
 
