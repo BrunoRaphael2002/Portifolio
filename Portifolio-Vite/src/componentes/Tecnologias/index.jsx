@@ -1,12 +1,12 @@
 import './index.css'
-import GerarDados from '../../logica'
+import GerarDadosTecnologia from '../../logica/DataTech';
 import IconeTecnologia from '../IconeTecnologia';
 
 
 
 export default function Tecnologias() {
 
-  const tecnologiaData = GerarDados();
+  const tecnologiaData = GerarDadosTecnologia();
 
     return (
       <>
@@ -18,7 +18,6 @@ export default function Tecnologias() {
             <IconeTecnologia
               
             key={tecnologia.id}
-            id={tecnologia.id}
             imagem={tecnologia.imagem}
             nome={tecnologia.nome}
             />

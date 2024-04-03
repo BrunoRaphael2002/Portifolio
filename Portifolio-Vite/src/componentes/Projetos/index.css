@@ -1,0 +1,155 @@
+.Meus-projetos {
+    
+   
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 30px;
+    margin: 30px;
+   
+    
+    
+     
+    
+    
+    
+   
+ }
+ 
+ .box-projetos{
+     display: flex;
+     align-items: stretch;
+     justify-content: flex-start;
+     flex-direction: row;
+     gap:30px;
+     padding: 30px ;
+     margin: 10px ;
+     text-align: center;
+     width: 100%;
+     background-color: var(--body);
+     box-shadow: 1px 15px 15px rgba(0, 0, 0, 0.216);
+     border-radius: 15px;
+     border: 1px solid #cfcfc8;
+     transition: transform 0.3s ease-in-out; 
+     
+     
+   
+     
+    
+ }
+ 
+ .box-projetos h3{
+     display: flex;
+     flex-direction: column;
+     text-transform: uppercase;
+ }
+ 
+ .box-text{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     width: 50%;
+ }
+ 
+ .box-projetos p{
+     padding: 20px;
+ }
+ 
+ .box-projetos:hover{
+     box-shadow: 1px 15px 15px #28282876;
+     transform: scale(1.03);
+ }
+ 
+ .box-projetos  .imagem-projeto{
+   object-fit: contain;
+     width: 50%;
+     height: 100%;
+   
+    
+    
+    
+ }
+ 
+ 
+ .box-projetos ul {
+     list-style: none;
+     display: flex;
+     align-items: center;
+     justify-content:center;
+     gap: 10px;
+     margin: 0 auto;
+     width: 100%;
+ 
+ }
+ 
+ .box-projetos ul li img{
+     width: 35px;
+ }
+ 
+ 
+ 
+ .boxlinkBtn{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+     gap: 50px;
+     width: 100%;
+     padding: 30px;
+     
+ }
+ 
+ 
+ .btnDeploy button{
+     background-color: #FF9505;
+     color: #F4F4ED;
+     border: 2px solid #FF9505;
+     font-size: 16px;
+     padding: 10px 20px;
+     text-align: center;
+     height: 100%;
+     width: 100%;
+     text-transform: uppercase;
+     cursor: pointer;
+     border-radius: 5px;
+        
+ }
+ 
+ .btnRepositorio button{
+     background-color: #FF9505;
+     color: #F4F4ED;
+     border: 2px solid #FF9505;
+     font-size: 16px;
+     padding: 10px 20px;
+     text-align: center;
+     height: 100%;
+     width: 100%;
+     text-transform: uppercase;
+     cursor: pointer;
+     border-radius: 5px;
+   
+ }
+ 
+ .btnDeploy, .btnRepositorio, button:hover{
+     background-color: white;
+  
+    
+     color: #FF9505;
+     object-fit: contain;
+ }
+ 
+ .boxBtn2{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     
+     width: 100%;
+     text-transform: uppercase;
+     padding: 40px;
+ 
+     -webkit-animation: heartbeat 1.5s ease-in-out infinite both;
+     animation: heartbeat 1.5s ease-in-out infinite both;
+ }

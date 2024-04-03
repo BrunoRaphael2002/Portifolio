@@ -11,7 +11,7 @@ import wordpress from '../assets/logo/wordpress.png'
 import ionic from '../assets/logo/ionic.png'
 
 
-function GerarDados() {
+function GerarDadosTecnologia() {
     return [
 
   { imagem: html, nome: 'HTML', id:1 },
@@ -29,4 +29,4 @@ function GerarDados() {
 ]
 }
 
-export default GerarDados;
+export default GerarDadosTecnologia;
