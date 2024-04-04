@@ -1,13 +1,14 @@
-import html from '../../assets/logo/html.png'
-//import css from '../../assets/logo/css.png'
-//import javascript from '../../assets/logo/js.png'
-
-export default function ListaDeTecnologias() {
-
+import PropTypes from 'prop-types';
+export default function ListaDeTecnologias( {imagens} ) {
   return (
-    <>
-    <li><img src={html} alt="" /></li>
-   
-    </>
-  )
+    <ul>
+      {imagens.map((imagem, index) => (
+        <li key={index}><img src={imagem} alt="" /></li>
+      ))}
+    </ul>
+  );
 }
+
+ListaDeTecnologias.propTypes = {
+  imagens: PropTypes.array.isRequired
+};

@@ -11,17 +11,23 @@ import ionic from '../assets/logo/ionic.png'
 
 
 
-export default function Projetos() {
-  return  [
-  { id: 1, imgLogo: html },
-  { id: 2, imgLogo: css },
-  { id: 3, imgLogo: javascript },
-  { id: 4, imgLogo: typescript },
-  { id: 5, imgLogo: react },
-  { id: 6, imgLogo: nextjs },
-  { id: 7, imgLogo: ionic },
-  { id: 8, imgLogo: wordpress },
-  { id: 9, imgLogo: figma},
-  { id: 10, imgLogo: mysql },
+function projetosData(){
+  return[
+  {
+    id: 1,
+ 
+    tecnologias: [html, css, javascript],
+ 
+  },
+
+  {
+    id: 2,
+   
+    tecnologias: [nextjs, javascript, react,wordpress],
+   
+  },
+  // Adicione mais objetos de projeto conforme necessário
 ]
 }
+
+export default projetosData;

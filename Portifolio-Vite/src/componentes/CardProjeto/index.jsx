@@ -12,7 +12,8 @@ export default function CardProjeto({  Titulo,
     imgProjeto,
     alt,
     Link01,
-    Link02}) 
+    Link02,
+    imagensTecnologias}) 
 
     
   {
@@ -33,13 +34,8 @@ export default function CardProjeto({  Titulo,
     <p>{Paragrafo}</p>
 
     <ul>
-            {/* Renderizando as imagens específicas */}
-            <ListaDeTecnologias/>
-            <ListaDeTecnologias/>
-            <ListaDeTecnologias/>
-        
+    <ListaDeTecnologias imagens={imagensTecnologias} />
 
-            {/*criar props da lista*/}
           </ul>
 
     <div className="boxlinkBtn">
@@ -56,13 +52,15 @@ export default function CardProjeto({  Titulo,
 CardProjeto.propTypes = {
   
   
-        Titulo: PropTypes.string.isRequired,
-        Paragrafo: PropTypes.string.isRequired,
-        imgProjeto: PropTypes.string.isRequired,
-      imgTech: PropTypes.string.isRequired,
-        alt: PropTypes.string.isRequired,
-        Link01: PropTypes.string.isRequired,
-        Link02: PropTypes.string.isRequired,
+
+  Titulo: PropTypes.string.isRequired,
+  Paragrafo: PropTypes.string.isRequired,
+  imgProjeto: PropTypes.string.isRequired,
+  alt: PropTypes.string.isRequired,
+  Link01: PropTypes.string.isRequired,
+  Link02: PropTypes.string.isRequired,
+  imagensTecnologias: PropTypes.arrayOf(PropTypes.string).isRequired 
+ 
  
     
   };
