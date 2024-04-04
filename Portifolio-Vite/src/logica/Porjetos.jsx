@@ -1,17 +1,27 @@
-export const projetosData = [
-    {
-      id: 1,
-      nome: 'Projeto 01',
-      descricao: 'Descrição do Projeto 01...',
-      tecnologias: [1, 2], // IDs das tecnologias usadas neste projeto (HTML e CSS)
-      // Adicione mais informações do projeto conforme necessário
-    },
-    {
-      id: 2,
-      nome: 'Projeto 02',
-      descricao: 'Descrição do Projeto 02...',
-      tecnologias: [3, 5, 6], // IDs das tecnologias usadas neste projeto (JavaScript, React.js e Next.js)
-      // Adicione mais informações do projeto conforme necessário
-    },
-    // Adicione mais projetos conforme necessário
-  ];
+import html from '../assets/logo/html.png'
+import css from '../assets/logo/css.png'
+import javascript from '../assets/logo/js.png'
+import mysql from '../assets/logo/sql.png'
+import nextjs from '../assets/logo/nextjs.png'
+import figma from '../assets/logo/figma.png'
+import react from '../assets/logo/react.png'
+import typescript from '../assets/logo/TypeScript.png'
+import wordpress from '../assets/logo/wordpress.png'
+import ionic from '../assets/logo/ionic.png'
+
+
+
+export default function Projetos() {
+  return  [
+  { id: 1, imgLogo: html },
+  { id: 2, imgLogo: css },
+  { id: 3, imgLogo: javascript },
+  { id: 4, imgLogo: typescript },
+  { id: 5, imgLogo: react },
+  { id: 6, imgLogo: nextjs },
+  { id: 7, imgLogo: ionic },
+  { id: 8, imgLogo: wordpress },
+  { id: 9, imgLogo: figma},
+  { id: 10, imgLogo: mysql },
+]
+}

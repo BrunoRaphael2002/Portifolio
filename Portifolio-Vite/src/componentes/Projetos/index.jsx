@@ -13,7 +13,6 @@ import react from '../../assets/logo/react.png'
 import typescript from '../../assets/logo/TypeScript.png'
 import wordpress from '../../assets/logo/wordpress.png'
 import ionic from '../../assets/logo/ionic.png'
-
 //imagem projeto =>
 import ImgProjeto from '../../assets/imagens/notFound.png'
 export default function Projetos() {
@@ -29,10 +28,10 @@ export default function Projetos() {
     { id: 9, imgLogo: figma},
     { id: 10, imgLogo: mysql },
   ]
-
+  
   return (
 
-   
+
     <>
      <section className="Meus-projetos limitar-sessao" id="Projetos">
     
@@ -42,7 +41,7 @@ export default function Projetos() {
         Titulo='Projeto-01'
     Paragrafo='Esse é o porjeto-01'
 
-    imgLogo={imagemLogo}
+    
     
     imgProjeto={ImgProjeto}
 

@@ -1,11 +1,14 @@
 import PropTypes from 'prop-types';
+import ListaDeTecnologias from '../ListaDeTecnologias';
+
+
+
 
 
 
 
 export default function CardProjeto({  Titulo,
     Paragrafo,
-    imgLogo,
     imgProjeto,
     alt,
     Link01,
@@ -13,10 +16,8 @@ export default function CardProjeto({  Titulo,
 
     
   {
-        const imgLogoId1 = imgLogo.find((logo) => logo.id === 1);
-        const imgLogoId3 = imgLogo.find((logo) => logo.id === 3);
-        const imgLogoId4 = imgLogo.find((logo) => logo.id === 4);
-        const imgLogoId9 = imgLogo.find((logo) => logo.id === 9);
+
+  
 
   return (
 
@@ -33,10 +34,12 @@ export default function CardProjeto({  Titulo,
 
     <ul>
             {/* Renderizando as imagens específicas */}
-            <li><img src={imgLogoId1.imgLogo} alt="" /></li>
-            <li><img src={imgLogoId3.imgLogo} alt="" /></li>
-            <li><img src={imgLogoId4.imgLogo} alt="" /></li>
-            <li><img src={imgLogoId9.imgLogo} alt="" /></li>
+            <ListaDeTecnologias/>
+            <ListaDeTecnologias/>
+            <ListaDeTecnologias/>
+        
+
+            {/*criar props da lista*/}
           </ul>
 
     <div className="boxlinkBtn">
@@ -56,7 +59,7 @@ CardProjeto.propTypes = {
         Titulo: PropTypes.string.isRequired,
         Paragrafo: PropTypes.string.isRequired,
         imgProjeto: PropTypes.string.isRequired,
-        imgLogo: PropTypes.string.isRequired,
+      imgTech: PropTypes.string.isRequired,
         alt: PropTypes.string.isRequired,
         Link01: PropTypes.string.isRequired,
         Link02: PropTypes.string.isRequired,
