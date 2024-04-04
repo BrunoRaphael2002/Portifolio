@@ -5,7 +5,7 @@ import projetosData from '../../logica/Porjetos';
 
 //imgLogo =>
 
-import ImgProjeto from '../../assets/imagens/notFound.png'
+
 export default function Projetos() {
   const projetos = projetosData();
   
@@ -15,33 +15,22 @@ export default function Projetos() {
     <>
      <section className="Meus-projetos limitar-sessao" id="Projetos">
     
-      <h3>Projetos</h3>
+     <section className="sessao-titulo" ><h1>Projetos</h1></section>
      
       {projetos.map((projeto) => (
           <CardProjeto
-            key={projeto.id} // Certifique-se de usar uma chave única para cada CardProjeto
-            Titulo='projeto01'
-            Paragrafo='descrição do projeto'
-            imgProjeto={ImgProjeto}
-            alt={`Imagem do ${projeto.nome}`}
-            Link01='#'
-            Link02='#'
-            imagensTecnologias={projeto.tecnologias}
+          key={projeto.id} 
+          Titulo={projeto.nome}
+          Paragrafo={projeto.descricao}
+          imgProjeto={projeto.imagem}
+          alt={`Imagem do ${projeto.alt}`}
+          Link01={projeto.link01}
+          Link02={projeto.link02}
+          imagensTecnologias={projeto.tecnologias}
           />
         ))}
 
-{projetos.map((projeto) => (
-          <CardProjeto
-            key={projeto.id} // Certifique-se de usar uma chave única para cada CardProjeto
-            Titulo='projeto01'
-            Paragrafo='descrição do projeto'
-            imgProjeto={ImgProjeto}
-            alt={`Imagem do ${projeto.nome}`}
-            Link01='#'
-            Link02='#'
-            imagensTecnologias={projeto.tecnologias}
-          />
-        ))}
+
 
   
       </section>

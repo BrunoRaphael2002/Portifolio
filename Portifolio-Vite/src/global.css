@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    
 }
 
 html{
@@ -30,15 +31,12 @@ body{
     justify-content: center;
     flex-direction: column;  
     font-family: 'Poppins', sans-serif;
+  
     
     
 }
 
-.limitar-sessao{
-    width: 100%;
-    max-width: 1024px;
-    margin: 0 auto;
-}
+
 
 .texto-link{
     display: inline;

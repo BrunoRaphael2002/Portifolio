@@ -1,0 +1,163 @@
+@media (max-width: 768px) {
+
+    header{
+        background-color: whitesmoke;
+        border: 1px solid rgba(55, 55, 55, 0.277);
+        width: 100%;
+        margin-bottom: 100px;
+    }
+
+        header nav{
+            flex-direction: column;
+            padding: 10px 20px;
+            margin: 0 auto;
+            gap: 20px;
+            font-size: 20px
+        }
+
+        header nav img{
+            object-fit: contain;
+            
+        }
+
+        header nav ul  {
+          margin: 0 auto;
+          font-size: 16px
+        }
+
+        .sobre {
+            height: 100vh;
+            
+        }
+
+        .setabaixo{
+            padding: 50px;
+            height: 50vh;
+        }
+
+       
+
+    .texto-sobre{
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        gap: 30px;
+        text-align: center;
+    }
+
+   
+
+  
+    .imagem {
+        display: none;
+        
+    }
+
+   .skills{
+    margin: 0 auto;
+    gap: 5;
+    columns: 2;
+ 
+    
+    
+   }
+
+    .tecnologias{
+      
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin: 10px auto;
+       
+        
+    }
+
+    .Meus-projetos{
+            margin: 0 auto;
+            justify-content: center;
+    }
+
+    .box-projetos{
+      max-width: 650px;
+      height: auto;
+      flex-direction: column;
+       
+    }
+
+    .box-projetos .imagem-projeto{
+        height: 100%;
+        width: 100%;
+    }
+
+    .box-text{
+        width: 100%;
+    }
+   
+  .boxlinkBtn{
+    width: 100%;
+   padding: 50px;
+   gap: 50px;
+   align-items: center;
+   flex-direction: column;
+  }
+
+  .btnDeploy button , .btnRepositorio button{
+    height: auto;
+    width: auto;
+    padding: 10px 40px;
+    font-size: 25px;  
+  }
+
+ 
+
+
+}
+
+@media (max-width: 480px){
+  
+   
+
+   .sobre .texto-sobre h1{
+       text-align: center;
+      font-size: 2.2em;
+      width: 100%;
+
+    }
+
+ 
+
+    .boxBtn{
+       flex-direction: column;
+       width: 100%;
+       height: auto;
+      
+       
+    }
+    
+    .boxBtn .btn1, .btn2{
+        font-size: 16px;
+        text-align: center;
+        width: 100%;
+        flex-direction: column;
+        
+          
+    }
+
+   
+
+
+    .boxlinkBtn{
+       flex-direction: column;
+       padding: 25px;
+      }
+
+      .btnDeploy button , .btnRepositorio button{
+        padding: 10px 20px;
+        font-size: 18px;  
+      }
+  
+}

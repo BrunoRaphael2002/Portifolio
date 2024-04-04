@@ -1,5 +1,5 @@
 
-//import './index.css';
+
 //import './infoCV.css';
 import Header from "./componentes/header"
 import Sobre from "./componentes/Sobre"
@@ -17,20 +17,6 @@ function App() {
      <Tecnologias/>
      <Projetos/>
      <Footer/>
-
-    
-
-    
-
-     
-     
-   
-
-
-
-
-
-
     </>
   )
 }
