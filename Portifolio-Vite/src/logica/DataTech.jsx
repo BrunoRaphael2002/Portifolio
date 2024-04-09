@@ -9,6 +9,10 @@ import react from '../assets/logo/react.png'
 import typescript from '../assets/logo/TypeScript.png'
 import wordpress from '../assets/logo/wordpress.png'
 import ionic from '../assets/logo/ionic.png'
+import node from'../assets/logo/nodejs.png'
+import express from '../assets/logo/express.png'
+import Styledcomponents from '../assets/logo/styled.png'
+import Vite from '../assets/logo/vite.png'
 
 
 function GerarDadosTecnologia() {
@@ -24,6 +28,10 @@ function GerarDadosTecnologia() {
   { imagem: wordpress, nome: 'WORDPRESS' ,id:8 },
   { imagem: figma, nome: 'FIGMA',  id:9},
   { imagem: mysql, nome: 'MYSQL', id:10 },
+  { imagem: node, nome: 'NODE', id:11 },
+  { imagem: express, nome: 'EXPRESS', id:12 },
+  { imagem: Styledcomponents, nome: 'STYLED COMPONENTS', id:13 },
+  { imagem: Vite, nome: 'Vite', id:14 },
   
   // Adicione mais objetos conforme necessário para outras tecnologias
 ]

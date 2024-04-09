@@ -36,7 +36,11 @@ body{
     
 }
 
-
+.limitar-sessao{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
 
 .texto-link{
     display: inline;
