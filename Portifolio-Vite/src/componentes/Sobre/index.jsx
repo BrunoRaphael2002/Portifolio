@@ -1,5 +1,7 @@
 import FotoSobre from '../../assets/imagens/perfil02.png'
 import Github from '../../assets/svg/Github.svg'
+import Linkedin from '../../assets/svg/Linkedin.svg'
+import Youtube from '../../assets/svg/Youtube.svg'
 import './index.css'
 
 export default function Sobre() {
@@ -20,9 +22,9 @@ export default function Sobre() {
                             <a href="https://www.linkedin.com/in/bruno-raphael-0984601b3/details/certifications/" target="_blank"><img src={Github} alt="" /></a>
 
 
-                            <a href="https://github.com/BrunoRaphael2002" target="_blank"><img src={Github} alt="" /></a>
+                            <a href="https://github.com/BrunoRaphael2002" target="_blank"><img  src={Youtube} alt="Youtube" /></a>
 
-                            <a href="https://www.youtube.com/channel/UCd5HlD1bsUz6xv16-xTQmtw" target="_blank"><img src={Github} alt="" /></a>
+                            <a href="https://www.youtube.com/channel/UCd5HlD1bsUz6xv16-xTQmtw" target="_blank"><img  src={Linkedin} alt="Linkedin" /></a>
                         </div>
 
 
