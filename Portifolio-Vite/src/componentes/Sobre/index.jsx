@@ -1,7 +1,7 @@
 import FotoSobre from '../../assets/imagens/perfil02.png'
-import Github from '../../assets/svg/Github.svg'
-import Linkedin from '../../assets/svg/Linkedin.svg'
-import Youtube from '../../assets/svg/Youtube.svg'
+import Github from '../../assets/icons/github.png'
+import Linkedin from '../../assets/icons/linkedin.png'
+import Youtube from '../../assets/icons/youtube.png'
 import './index.css'
 
 export default function Sobre() {

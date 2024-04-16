@@ -39,7 +39,9 @@ body{
     justify-content: center;
     flex-direction: column;  
     font-family: 'Poppins', sans-serif;
-   
+ 
+    background: rgb(250,249,246);
+    background: linear-gradient(180deg, rgba(250,249,246,1) 0%, rgba(233,233,233,1) 100%);
   
     
     
