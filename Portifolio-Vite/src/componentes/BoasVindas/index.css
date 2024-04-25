@@ -17,7 +17,7 @@ span{
 }
 
 .texto-sobre{
-    width: 100%;
+    width: 50%;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -25,8 +25,9 @@ span{
     margin: 5px;
     border-radius: 25px;
     padding: 50px 20px; /* Ajuste o valor conforme necessário */
-    line-height: 30px;
+   line-height: 30px;
     height: 100vh;
+    
   
 }
 
@@ -35,6 +36,7 @@ span{
     font-size: 4em;
    text-align: left;
    text-transform: uppercase;
+   line-height: 50px;
 
    
 }
@@ -107,14 +109,21 @@ span{
     color: white;
     background-color: var(--amarelo);
     width: max-content;
-    padding: 10px 15px;
+    padding: 10px 20px;
     border-radius: 25px;
     box-shadow: 1px 1px 15px var(--amarelo);
     transition: background-color 0.3s, color 0.3s;
 }
 
  .btn1:hover{
-    box-shadow: none;
+    border: 2px solid var(--amarelo);
+ width: max-content;
+  padding: 10px 20px;
+  border-radius: 25px;
+  transition: background-color 0.3s, color 0.3s;
+  background-color: white;
+  color: #FF9505;
+
 }
 
  .btn2{
@@ -139,12 +148,13 @@ span{
 
 .imagem{
    
-    
+   
     width: 50%;
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+   
+    justify-content: flex-end;
     -webkit-animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	        animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
           
@@ -154,8 +164,8 @@ span{
 .imagem img{
   
     width: 400px;
-    height: 400px;
-    padding: 30px;
+    height: 500px;
+   
     object-fit: cover;
     border-radius:15px ;
     /*box-shadow: 10px 5px 1px 5px rgb(98, 26, 26);*/
@@ -165,4 +175,7 @@ span{
 }
 
 
-  
+  .orange{
+    color: #FF9505;
+    text-transform: capitalize;
+  }
