@@ -26,7 +26,7 @@ span{
     border-radius: 25px;
     padding: 50px 20px; /* Ajuste o valor conforme necessário */
     line-height: 20px;
-    height: 100vh;
+    height: 100%;
    
   
 }
@@ -41,7 +41,7 @@ span{
    
 }
 
- .texto-sobre p {
+ .texto-sobre-mim p {
     color: #2e2e2e;
     font-weight: 200;
    font-size: 1em;

@@ -1,0 +1,52 @@
+.formacao-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 20px;
+    margin: 0px auto;
+    gap: 20px;
+    max-width: 1024px;
+  }
+  
+  .formacao-coluna {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .formacao-espaco {
+    width: 20px; /* Adicionando espaço entre as colunas */
+  }
+  
+  .formacao-box {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .formacao-box h2 {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  .formacao-box p {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #555;
+    text-align: center;
+  }
+  
+
+  .colorGreen{
+        color: rgb(112, 196, 88);
+  }
+
+  .colorBlueligth{
+    color: #007bff;
+  }
+
+  .colorBlue{
+   color: #0b137b;
+  }

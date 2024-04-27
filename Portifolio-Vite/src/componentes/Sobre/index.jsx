@@ -4,11 +4,11 @@ import FotoSobre from '../../assets/imagens/perfil03.jpeg'
 export default function Sobre() {
     return (
       <>
- <section className="sessao-titulo" ><h1>Sobre mim</h1></section>
-       <section className="sobre limitar-sessao" id="Inicio">
+ <section className="sessao-titulo" id="Sobre" ><h1>Sobre mim</h1></section>
+       <section className="sobre limitar-sessao" >
       
 
-       <div className=" texto-sobre-mim">
+       <div className=" texto-sobre-mim" >
                     
                    
 

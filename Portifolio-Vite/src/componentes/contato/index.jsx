@@ -48,8 +48,9 @@ function Contato() {
     };
 
     return (
-        <div className='contato'>
-            <h2>Entre em Contato</h2>
+        <><section className="sessao-titulo" ><h1>Contato</h1></section>
+        <div className='contato' id='Contato'>
+          
             <form onSubmit={handleSubmit}>
                 <div>
                     <label htmlFor="nome">Nome:</label>
@@ -96,7 +97,14 @@ function Contato() {
                 </div>
                 <button type="submit">Enviar</button>
             </form>
+
+            <div className= 'limitar-sessao box'>
+                <h3>Caso queira Entrar em contato de forma mais Objetiva e Rapida clique no Botão saiba Mais </h3>
+                
+               <a className='btn1'href="https://wa.me/5583982190654" target='_blank' >Saiba mais </a>
+            </div>
         </div>
+        </>
     );
 }
 

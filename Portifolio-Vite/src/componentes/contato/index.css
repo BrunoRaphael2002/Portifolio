@@ -36,7 +36,7 @@ form {
   
   /* Estilo para o botão de envio */
   button[type="submit"] {
-    background-color: #007bff;
+    background-color: orange;
     color: #fff;
     border: none;
     border-radius: 3px;
@@ -46,7 +46,7 @@ form {
   
   /* Estilo para o botão de envio ao passar o mouse */
   button[type="submit"]:hover {
-    background-color: #0056b3;
+    background-color: orange;
   }
   
   /* Estilo para mensagens de sucesso ou erro */
@@ -66,6 +66,23 @@ form {
     background-color: #f8d7da;
     color: #721c24;
     border: 1px solid #f5c6cb;
+  }
+
+  .box{
+   padding-top: 50px ;
+    height: 100%;
+    gap: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+
+  }
+
+  .box h3{
+    font-weight: 100;
+    width: 90%;
+   text-align: center;
   }
   
   /* Media query para telas menores */

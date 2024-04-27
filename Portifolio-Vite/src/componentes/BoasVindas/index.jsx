@@ -2,6 +2,8 @@ import FotoSobre from '../../assets/imagens/perfil02.png'
 import Github from '../../assets/icons/github.png'
 import Linkedin from '../../assets/icons/linkedin.png'
 import Youtube from '../../assets/icons/youtube.png'
+
+import Zap from '../../assets/icons/zap.png'
 import './index.css'
 
 export default function BoasVindas() {
@@ -27,6 +29,8 @@ export default function BoasVindas() {
                      <a href="https://github.com/BrunoRaphael2002" target="_blank"><img  src={Youtube} alt="Youtube" /></a>
 
                      <a href="https://www.youtube.com/channel/UCd5HlD1bsUz6xv16-xTQmtw" target="_blank"><img  src={Linkedin} alt="Linkedin" /></a>
+
+                     <a href="https://wa.me/5583982190654" target="_blank"><img src={Zap} alt="whatzap" /></a>
                  </div>
 
 

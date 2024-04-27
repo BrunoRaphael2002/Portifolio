@@ -27,18 +27,25 @@ span{
     padding: 50px 20px; /* Ajuste o valor conforme necessário */
    line-height: 30px;
     height: 100vh;
+   
     
   
 }
 
 
  .texto-sobre h1{
-    font-size: 4em;
+    font-size: 3.5em;
    text-align: left;
    text-transform: uppercase;
-   line-height: 50px;
+   line-height: 20px;
+   margin-bottom: 10px;
 
    
+}
+
+.texto-sobre h2 {
+    text-align: left;
+    margin:5px 0 ;
 }
 
  .texto-sobre p {
@@ -105,26 +112,7 @@ span{
    
 }
 
- .btn1{
-    color: white;
-    background-color: var(--amarelo);
-    width: max-content;
-    padding: 10px 20px;
-    border-radius: 25px;
-    box-shadow: 1px 1px 15px var(--amarelo);
-    transition: background-color 0.3s, color 0.3s;
-}
 
- .btn1:hover{
-    border: 2px solid var(--amarelo);
- width: max-content;
-  padding: 10px 20px;
-  border-radius: 25px;
-  transition: background-color 0.3s, color 0.3s;
-  background-color: white;
-  color: #FF9505;
-
-}
 
  .btn2{
   border: 3px solid var(--amarelo);

@@ -8,6 +8,7 @@ import Tecnologias from "./componentes/Tecnologias"
 import Projetos from "./componentes/Projetos"
 import Footer from "./componentes/Footer"
 import Contato from "./componentes/contato"
+import Formacao from "./componentes/formacao"
 
 
 function App() {
@@ -17,8 +18,9 @@ function App() {
     <Header/>
      <BoasVindas/>
       <Sobre/>
+      <Tecnologias/>
      <Projetos/>
-     <Tecnologias/>
+    <Formacao/>
      <Contato/>
      <Footer/>
     </>
