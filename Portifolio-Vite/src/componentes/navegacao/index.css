@@ -28,7 +28,7 @@
     top: 57px;
     right: 0;
     height: 100vh; /* Ocupa toda a altura da tela */
-    width: 50%;
+    width: 100%;
     padding: 10px;
     margin: 0;
     background-color: rgba(250, 249, 246, 0.418); /* Fundo estilo vidro transparente */
