@@ -1,23 +1,27 @@
 .formacao-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: stretch;
+
+  gap: 20px;
+
+  flex-direction: column;
     padding: 100px 20px;
     margin: 0px auto;
-    gap: 20px;
+    gap: 0px;
     max-width: 1024px;
   }
   
-  .formacao-coluna {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .formacao-espaco {
-    width: 20px; /* Adicionando espaço entre as colunas */
-  }
+
   
   .formacao-box {
+    max-width: 700px;
+    margin: 0 auto;
+
+  
+
+display: flex;
+flex-direction: column;
     width: 100%;
     margin-bottom: 20px;
     padding: 20px;
