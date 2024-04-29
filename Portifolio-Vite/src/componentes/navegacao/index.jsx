@@ -22,7 +22,7 @@ export default function Navegacao() {
           <div className="linha"></div>
         </div>
         <ul className={`menu ${menuAberto ? 'aberto' : ''}`}>
-          <li><a href="#Inicio" onClick={() => setMenuAberto(false)}>Inicio</a></li>
+          <li><a href="#Inicio" onClick={() => setMenuAberto(false)}>INÍCIO</a></li>
           <li><a href="#Sobre" onClick={() => setMenuAberto(false)}>Sobre mim</a></li>
           <li><a href="#Habilidades" onClick={() => setMenuAberto(false)}>Habilidades</a></li>
           <li><a href="#Projetos" onClick={() => setMenuAberto(false)}>Projetos</a></li>

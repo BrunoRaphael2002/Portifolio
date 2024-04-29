@@ -57,7 +57,7 @@ function projetosData(){
   {
     id: 3,
     nome:'Agencia de Design',
-    descricao:'Esse projeto foi desenvolvido utilizando UseState',
+    descricao:'Este projeto foi desenvolvido utilizando UseState',
     alt:'imagem02',
     link01:'https://agencia-de-design-orpin.vercel.app',
     link02:'https://github.com/BrunoRaphael2002/devMedia/tree/main/react/projetos-react/agencia-desing',
@@ -79,18 +79,18 @@ function projetosData(){
   {
     id: 5,
     nome:'Restaurante ',
-    descricao:'Esse Projeto foi desenvolvido em Nextjs utilizando rotas, UseState, componentes , filtragem e mapeamento de dados , e possui um back-end que ele recebe de um array javaScritp',
+    descricao:'Este Projeto foi desenvolvido em Nextjs utilizando rotas, UseState, componentes , filtragem e mapeamento de dados , e possui um back-end que ele recebe de um array javaScritp',
     alt:'imagem02',
     link01:'https://cardapio-restaurante-xi.vercel.app',
     link02:'https://github.com/BrunoRaphael2002/Cardapio-restaurante',
     imagem: [Restaurante],
-    tecnologias: [nextjs, javascript, react,wordpress],
+    tecnologias: [nextjs,react, javascript ],
    
   },
   {
     id: 6,
     nome:'Fokus',
-    descricao:'Esse Projeto foi Desenvolvido com html , css e javaScript para estudar a manipulação do DOM ',
+    descricao:'Este Projeto foi Desenvolvido com html , css e javaScript para estudar a manipulação do DOM ',
     alt:'imagem02',
     link01:'https://brunoraphael2002.github.io/Alura-front-end/projetos%20front-end/Fokus-projeto-base/',
     link02:'https://github.com/BrunoRaphael2002/Alura-front-end/tree/main/projetos%20front-end/Fokus-projeto-base',
@@ -100,8 +100,8 @@ function projetosData(){
   },
   {
     id: 7,
-    nome:'projeto02',
-    descricao:'Esse Projeto foi desenvolvido com Ionic porjeto desenvolvido durante a faculdade De Analise de Desenvolvimento de Sistemas ',
+    nome:'App Delivery',
+    descricao:'Este Projeto foi desenvolvido com Ionic projeto desenvolvido durante a faculdade De Analise de Desenvolvimento de Sistemas ',
     alt:'imagem02',
     link01:'https://restaurante-ionic.vercel.app/home',
     link02:'https://github.com/BrunoRaphael2002/Restaurante-Ionic',
@@ -111,8 +111,8 @@ function projetosData(){
   },
   {
     id: 8,
-    nome:'projeto02',
-    descricao:'Esse Projeot foi desenvolvido com react e com node + express foi criado uma Api para pesquisar , salvar e deletar livros (em Desenvolvimento',
+    nome:'Alura Books',
+    descricao:'Este Projeto foi desenvolvido com react e com node + express foi criado uma Api para pesquisar , salvar e deletar livros (em Desenvolvimento',
     alt:'imagem02',
     link01:'https://alura-front-end-gamma.vercel.app',
     link02:'https://github.com/BrunoRaphael2002/Alura-front-end/tree/main/projetos%20front-end/react-full-stack',

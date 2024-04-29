@@ -1,7 +1,7 @@
 import './index.css'
 import CardProjeto from '../CardProjeto'
 import PropTypes from 'prop-types';
-import projetosData from '../../logica/Porjetos';
+import projetosData from '../../logica/Projetos';
 
 //imgLogo =>
 

@@ -9,14 +9,14 @@ export default function Formacao() {
       
         <div className="formacao-box">
           <h2 className='colorBlueligth'>Faculdade Claretiano</h2>
-          <p>Analise de Desenvolvimento de Sistemas</p>
+          <p>Análise de Desenvolvimento de Sistemas</p>
           <p>Período: 2021 - 2023</p>
         </div>
       
 
         <div className="formacao-box">
           <h2 className='colorGreen'>DevMedia</h2>
-          <p>Carreira  Web Front end</p>
+          <p>Carreira Web Front-End</p>
           <p>Conclusão: 2021</p>
         </div>
         
