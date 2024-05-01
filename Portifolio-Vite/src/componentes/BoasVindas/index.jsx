@@ -14,11 +14,10 @@ export default function BoasVindas() {
 <div className=" texto-sobre">
              <h1>Bruno Raphael,</h1>
              <h2>Engenheiro de Software</h2>
-             <p>Olá seja bem vindo ! Me chamo Bruno Raphael  , sou formado em <span className='orange'>
-                 Análise de
-                     desenvolvimento de sistemas
-             </span>,  pela faculdade <a className="texto-link
-                    " href="https://claretiano.edu.br" target="_blank">Claretiano</a> Entre em contato Hoje e Faça a sua ideia de neogicio ganhar vida de forma acessivel o otimizada.
+             <p>Olá, seja bem-vindo! Me chamo Bruno Raphael, sou formado em <span className='orange'>Análise de Desenvolvimento de Sistemas</span> pela faculdade <a className="texto-link" href="https://claretiano.edu.br" target="_blank">Claretiano</a>. Entre em contato hoje e faça a sua ideia de negócio ganhar vida de forma acessivel e otimizada.
+
+
+                    
                  </p>
 
                  <div className="redes">
