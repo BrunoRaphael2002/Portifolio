@@ -11,10 +11,6 @@
     
 }
 
-span{
-    font-weight: bold;
-    text-transform: uppercase;
-}
 
 .texto-sobre{
     width: 50%;
@@ -36,7 +32,7 @@ span{
  .texto-sobre h1{
     font-size: 3.5em;
    text-align: left;
-   text-transform: uppercase;
+
    line-height: 20px;
    margin-bottom: 10px;
 
@@ -165,5 +161,5 @@ span{
 
   .orange{
     color: #FF9505;
-    text-transform: capitalize;
+   
   }

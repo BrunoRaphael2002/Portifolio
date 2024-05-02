@@ -36,8 +36,6 @@ function experienciaData(){
     nome:'Projeto 01',
     descricao:'projeto Freelancer desenvolvido para cliente ',
     alt:'imagem01',
-    link01:'https://otica-visao-show.vercel.app',
-    link02:'https://github.com/BrunoRaphael2002/otica-visao-show',
     imagem: [ ImgProjeto],
     tecnologias: [html, css, javascript, react],
  
@@ -46,10 +44,8 @@ function experienciaData(){
   {
     id: 2,
     nome:'Projeto 02',
-    descricao:'projeto Freelancer desenvolvido para cliente',
+    descricao:'projeto Freelancer desenvolvido para cliente ',
     alt:'imagem02',
-    link01:'#',
-    link02:'#',
     imagem: [ ImgProjeto],
     tecnologias: [ html, css, javascript, react,],
    
@@ -57,10 +53,8 @@ function experienciaData(){
   {
     id: 3,
     nome:'Projeto 03',
-    descricao:'projeto Freelancer desenvolvido para cliente',
+    descricao:'projeto Freelancer desenvolvido para ',
     alt:'imagem02',
-    link01:'#',
-    link02:'#',
     imagem: [ ImgProjeto],
     tecnologias: [html,css,javascript,react],
    
