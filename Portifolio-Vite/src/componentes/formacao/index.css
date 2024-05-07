@@ -3,12 +3,11 @@
     justify-content: center;
     align-items: stretch;
 
-  gap: 20px;
 
   flex-direction: column;
     padding: 100px 20px;
     margin: 0px auto;
-    gap: 0px;
+    gap: 10px;
     max-width: 1024px;
   }
   
@@ -19,7 +18,7 @@
     margin: 0 auto;
 
   
-
+gap: 10px;
 display: flex;
 flex-direction: column;
     width: 100%;
@@ -33,6 +32,7 @@ flex-direction: column;
   .formacao-box h2 {
     margin-bottom: 10px;
     font-size: 18px;
+    text-align: center;
   }
   
   .formacao-box p {
