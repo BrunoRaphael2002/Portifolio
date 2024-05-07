@@ -1,94 +1,61 @@
-.contato{
-    padding-bottom: 100px ;
-    margin: 0 auto;
+/* index.css */
+
+.contato {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h2{
-    text-align: center;
-    margin: 20px;
+.contato form div {
+  margin-bottom: 20px;
 }
 
-/* Estilo para o formulário */
-form {
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  /* Estilo para os rótulos dos campos */
-  label {
-    display: block;
-    margin-bottom: 5px;
-  }
-  
-  /* Estilo para os campos de entrada */
-  input[type="text"],
-  input[type="email"],
-  textarea {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-  }
-  
-  /* Estilo para o botão de envio */
-  button[type="submit"] {
-    background-color: orange;
-    color: #fff;
-    border: none;
-    border-radius: 3px;
-    padding: 10px 20px;
-    cursor: pointer;
-  }
-  
-  /* Estilo para o botão de envio ao passar o mouse */
-  button[type="submit"]:hover {
-    background-color: orange;
-  }
-  
-  /* Estilo para mensagens de sucesso ou erro */
-  .message {
-    margin-top: 10px;
-    padding: 10px;
-    border-radius: 3px;
-  }
-  
-  .success {
-    background-color: #d4edda;
-    color: #155724;
-    border: 1px solid #c3e6cb;
-  }
-  
-  .error {
-    background-color: #f8d7da;
-    color: #721c24;
-    border: 1px solid #f5c6cb;
-  }
+.contato form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
 
-  .box{
-   padding-top: 50px ;
-    height: 100%;
-    gap: 20px;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   flex-direction: column;
+.contato form input[type="text"],
+.contato form input[type="email"],
+.contato form textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
 
-  }
+.contato form textarea {
+  height: 150px;
+}
 
-  .box h3{
-    font-weight: 100;
-    width: 90%;
-   text-align: center;
-  }
-  
-  /* Media query para telas menores */
-  @media screen and (max-width: 600px) {
-    form {
-      width: 90%;
-    }
-  }
-  
+.contato form button[type="submit"] {
+  background-color: orange;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contato form button[type="submit"]:hover {
+  background-color: rgb(195, 127, 0);
+}
+
+.box{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+  gap: 20px;
+  flex-direction: column;
+}
+
+

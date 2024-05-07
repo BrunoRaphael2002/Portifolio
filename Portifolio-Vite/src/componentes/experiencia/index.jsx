@@ -9,8 +9,8 @@ export default function Experiencia() {
   return (
     <>
      
-
-       <section className="sessao-titulo limitar-sessao" id="Experiencia" ><h1>Experiência </h1>
+     <section className="Meus-projetos limitar-sessao" >
+       <section className="sessao-titulo limitar-sessao" id="Experiencia" ><h1>Experiência </h1>   </section>
      
      {experiencias.map((experiencia) => (
          <CardProjeto
@@ -25,10 +25,10 @@ export default function Experiencia() {
          />
        ))}
 
-
+</section>
 
  
-     </section>
+  
     </>
   )
 }

@@ -1,14 +1,4 @@
-.sessao-titulo{
-    padding: 100px 20px;
-    margin: 0 auto;
-  }
 
-  .sessao-titulo h1{
-    color: var(--amarelo);
-    font-size: 40px;
-    text-transform: uppercase;
-    text-align: center;
-  }
 
   .skills{
     display: flex;

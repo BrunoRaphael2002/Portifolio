@@ -94,11 +94,12 @@ function Contato() {
                     <button type="submit">Enviar</button>
                 </form>
 
-                <div className='limitar-sessao box'>
+               
+            </div>
+            <div className='limitar-sessao box'>
                     <h3>Caso queira Entrar em contato de forma mais Objetiva e Rápida clique no Botão saiba Mais </h3>
                     <a className='btn1' href="https://wa.me/5583982190654" target='_blank'>Saiba mais</a>
                 </div>
-            </div>
         </>
     );
 }

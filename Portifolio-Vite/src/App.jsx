@@ -9,7 +9,7 @@ import Projetos from "./componentes/Projetos"
 import Footer from "./componentes/Footer"
 import Contato from "./componentes/contato"
 import Formacao from "./componentes/formacao"
-import Experiencia from "./componentes/experiencia"
+
 
 
 function App() {
@@ -23,7 +23,7 @@ function App() {
      <Projetos/>
     
     <Formacao/>
-    <Experiencia/>
+   
      <Contato/>
      <Footer/>
     </>

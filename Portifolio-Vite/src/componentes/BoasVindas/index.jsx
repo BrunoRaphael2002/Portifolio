@@ -22,12 +22,12 @@ export default function BoasVindas() {
 
                  <div className="redes">
 
-                     <a href="https://www.linkedin.com/in/bruno-raphael-0984601b3/details/certifications/" target="_blank"><img src={Github} alt="" /></a>
+                     <a href="https://github.com/BrunoRaphael2002" target="_blank"><img src={Github} alt="" /></a>
 
 
-                     <a href="https://github.com/BrunoRaphael2002" target="_blank"><img  src={Youtube} alt="Youtube" /></a>
+                     <a href="https://www.youtube.com/channel/UCd5HlD1bsUz6xv16-xTQmtw" target="_blank"><img  src={Youtube} alt="Youtube" /></a>
 
-                     <a href="https://www.youtube.com/channel/UCd5HlD1bsUz6xv16-xTQmtw" target="_blank"><img  src={Linkedin} alt="Linkedin" /></a>
+                     <a href="https://www.linkedin.com/in/bruno-raphael-0984601b3/" target="_blank"><img  src={Linkedin} alt="Linkedin" /></a>
 
                      <a href="https://wa.me/5583982190654" target="_blank"><img src={Zap} alt="whatzap" /></a>
                  </div>
@@ -35,7 +35,7 @@ export default function BoasVindas() {
 
              <div className="boxBtn">
                 
-                 <a className="btn1" href="mailto:brunoraphael0725@gmail.com" >Saiba Mais </a>
+                 <a className="btn1" href="https://wa.me/5583982190654" target='_blank' >Saiba Mais </a>
              </div>
          </div>
 
