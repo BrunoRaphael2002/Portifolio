@@ -34,7 +34,7 @@ function projetosData(){
   {
     id: 1,
     nome:'Otica Vida',
-    descricao:'projeto desenvolvido em react utilizando components',
+    descricao:'Este foi o primeiro projeto desenvolvido em react utilizando components quando eu estava começando a aprender sobre a biblioteca react',
     alt:'imagem01',
     link01:'https://otica-visao-show.vercel.app',
     link02:'https://github.com/BrunoRaphael2002/otica-visao-show',
@@ -46,7 +46,7 @@ function projetosData(){
   {
     id: 2,
     nome:'Sorveteria',
-    descricao:'Projeto desenvolvido em React estudando o uso do React-router-dom',
+    descricao:'Durante o desenvolvimento desse porjeto aprofundei um pouco mais os meus conhecimentos em react aprendendo sobre rotar com react-router-dom e no meio do caminho me deparei com um problema que ao clicar em um dos links do nav bar a tela não resetava para o topo então descobri o  scroll to top utilizando useLocation conseguindo assim resolver o poblema fazendo com que a pagina suba para o topo',
     alt:'imagem02',
     link01:'https://sorveteria-indol.vercel.app',
     link02:'https://github.com/BrunoRaphael2002/devMedia/tree/main/react/projetos-react/spa-sorveteria',
@@ -57,7 +57,7 @@ function projetosData(){
   {
     id: 3,
     nome:'Agencia de Design',
-    descricao:'Este projeto foi desenvolvido utilizando UseState',
+    descricao:'Já nesse projeto aprendi bastante sobre o uso de Hooks de mudança de estado alternando entre dark mode e light mode ',
     alt:'imagem02',
     link01:'https://agencia-de-design-orpin.vercel.app',
     link02:'https://github.com/BrunoRaphael2002/devMedia/tree/main/react/projetos-react/agencia-desing',
@@ -68,7 +68,7 @@ function projetosData(){
   {
     id: 4,
     nome:'ADPB Chã do Cabo Branco',
-    descricao:'Projeto desenvolvido em react criando componentes para uma igreja local',
+    descricao:'Projeto utilizando react  para uma igreja local',
     alt:'imagem02',
     link01:'https://projeto-adpb.vercel.app',
     link02:'https://github.com/BrunoRaphael2002/projeto-adpb',
@@ -79,7 +79,7 @@ function projetosData(){
   {
     id: 5,
     nome:'Restaurante ',
-    descricao:'Este Projeto foi desenvolvido em Nextjs utilizando rotas, UseState, componentes , filtragem e mapeamento de dados , e possui um back-end que ele recebe de um array javaScritp',
+    descricao:'Este Projeto foi desenvolvido em Nextjs utilizando rotas, UseState, componentes , filtragem e mapeamento de dados , e possui um back-end com Json ',
     alt:'imagem02',
     link01:'https://cardapio-restaurante-xi.vercel.app',
     link02:'https://github.com/BrunoRaphael2002/Cardapio-restaurante',
@@ -90,7 +90,7 @@ function projetosData(){
   {
     id: 6,
     nome:'Fokus',
-    descricao:'Este Projeto foi Desenvolvido com html , css e javaScript para estudar a manipulação do DOM ',
+    descricao:'Este Projeto foi Desenvolvido com html , css e javaScript para estudar a manipulação do DOM, criando varias funcionalidades dinamicas com toque de botão, musica, troca de tema , manipulação do cronometro com valores diferentes de acordo com o tema escolhido ',
     alt:'imagem02',
     link01:'https://brunoraphael2002.github.io/Alura-front-end/projetos%20front-end/Fokus-projeto-base/',
     link02:'https://github.com/BrunoRaphael2002/Alura-front-end/tree/main/projetos%20front-end/Fokus-projeto-base',
@@ -112,7 +112,7 @@ function projetosData(){
   {
     id: 8,
     nome:'Alura Books',
-    descricao:'Este Projeto foi desenvolvido com react e com node + express foi criado uma Api para pesquisar , salvar e deletar livros (em Desenvolvimento',
+    descricao:'Este Projeto foi desenvolvido com react e com node + express foi criado uma Api para pesquisar , salvar e deletar livros (em Desenvolvimento) , por mais simples que seja e por estar incompleto pois ainda está em desenvolvimento a api ela está funcionando perfeitamente porém só na maquina em que estiver instalado o codigo completo com todas as dependencias , eu aprendi muito nesse porjeto pois nele utilizie Express e Axios no back-end pude entender como cada um se comunica, e a ideia com novos projetos é aprofundar mais para o lado Full Stack',
     alt:'imagem02',
     link01:'https://alura-front-end-gamma.vercel.app',
     link02:'https://github.com/BrunoRaphael2002/Alura-front-end/tree/main/projetos%20front-end/react-full-stack',
