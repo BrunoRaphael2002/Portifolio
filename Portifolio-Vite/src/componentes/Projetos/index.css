@@ -62,9 +62,11 @@
      box-shadow: 1px 15px 15px #28282876;
      transform: scale(1.03);
  }
+
+
  
  .box-projetos  .imagem-projeto{
-   object-fit: contain;
+   object-fit: cover;
      width: 50%;
      height: 100%;
    
