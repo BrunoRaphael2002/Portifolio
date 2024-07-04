@@ -24,13 +24,13 @@ export default function CardProjeto({  Titulo,
 
    <>
    <div className="box-projetos ">
-
+   <h1>{Titulo}</h1>
                     
 
 <img className="imagem-projeto" src={imgProjeto} alt={alt}/>
 
     <div className="box-text">
-    <h3>{Titulo}</h3>
+    
     <p>{Paragrafo}</p>
 
     <ul>
