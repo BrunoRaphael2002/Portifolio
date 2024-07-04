@@ -174,15 +174,15 @@ body{
     }
 
     .box-projetos{
-      max-width: 650px;
+      width: 100%;
       height: auto;
       flex-direction: column;
       flex-wrap: wrap;
        
     }
 
-    .box-projetos .imagem-projeto{
-        height: 100%;
+    .imagem-projeto{
+      
         width: 100%;
     }
 
