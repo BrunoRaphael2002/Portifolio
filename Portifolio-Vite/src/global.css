@@ -174,10 +174,10 @@ body{
     }
 
     .box-projetos{
-      width: 100%;
+     
       height: auto;
       flex-direction: column;
-      flex-wrap: wrap;
+      
        
     }
 

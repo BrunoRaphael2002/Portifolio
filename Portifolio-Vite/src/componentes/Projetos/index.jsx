@@ -14,7 +14,7 @@ export default function Projetos() {
 
     <>
      <section className="sessao-titulo" ><h1>Projetos</h1></section>
-     <section className="Meus-projetos " id="Projetos">
+     <section className="Meus-projetos limitar-sessao" id="Projetos">
     
     
      
